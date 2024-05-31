@@ -1,23 +1,18 @@
 stack = []
 
-
 def stackInit():
     global stack
     stack.clear()
-
 
 def stackIsEmpty():
     global stack
     return len(stack) == 0
 
-
 def stackPush(value):
     stack.append(value)
 
-
 def stackPop():
     return stack.pop()
-
 
 def main():
     T = int(input())
@@ -40,7 +35,6 @@ def main():
                 print(value, end=' ')
 
         print()
-
 
 if __name__ == "__main__":
     main()
